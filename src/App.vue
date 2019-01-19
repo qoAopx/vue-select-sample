@@ -1,24 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <SelectSample />
+    <SelectSample/>
   </div>
 </template>
 
 <script>
-import SelectSample from './components/SelectSample.vue'
+import SelectSample from "./components/SelectSample.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     SelectSample
   }
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

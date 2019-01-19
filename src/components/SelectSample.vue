@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h3>Select</h3>
     <select v-model="country" @change="change_country">
       <option v-for="(c , i) in country_list" :key="i" :value="c.value">{{ c.text }}</option>
     </select>

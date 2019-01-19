@@ -1,6 +1,6 @@
 # select_sample
 
-Vue.js の Select でプリミティブな値ではなくオブジェクトを返すサンプル。
+Vue.js の select でプリミティブな値ではなくオブジェクトを返すサンプル。
 
 ## Project setup
 
